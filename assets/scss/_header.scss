@@ -1,5 +1,6 @@
 .header__navbar {
   background-color: rgba($color-light, 0.8);
+  position: relative;
 }
 .navbar {
   padding: 26px 16px;
@@ -73,6 +74,18 @@
   }
   .fas {
     margin-top: -5px;
+  }
+  &__cart-counter {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: $color-dark;
+    font-size: 16px;
+    box-shadow: 0 0 4px black;
   }
 }
 
