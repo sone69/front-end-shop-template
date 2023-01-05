@@ -17,7 +17,7 @@ const createElement = ({ type, attrs, container = null }) => {
 };
 
 const createBasketContainer = (c) => {
-  basketContainer = createElement({ type: 'div', attrs: { class: 'well basket__container' }, container: headerNavbar });
+  basketContainer = createElement({ type: 'div', attrs: { class: 'basket__container' }, container: headerNavbar });
   createElement({ type: 'p', attrs: { innerText: `В корзине ${c} товаров` }, container: basketContainer });
 };
 

@@ -61,7 +61,7 @@ const writeProductToBasket = (t, arr) => {
 
 const btnClickHandler = (e) => {
   const target = e.target;
-  const interval = 2000;
+  const interval = 1000;
 
   if (target && target.matches('.item-actions__cart')) {
     if (basketContainer !== null) eraseBasket();
